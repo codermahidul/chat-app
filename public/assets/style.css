@@ -793,3 +793,20 @@ body {
 #frame .content .message-input .wrap button:focus {
     outline: none;
 }
+
+
+.loader {
+	width: 100%;
+	height: 100%;
+	background: #8f8b8b;
+	position: absolute;
+	z-index: 99999999999999999 !important;
+}
+
+
+.loader-inner {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
